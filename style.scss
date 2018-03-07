@@ -18,15 +18,14 @@ html {
 }
 
 body {
-	background: "www.chelseafc.com/content/cfc/en/ref/clubs/en/tottenham-hotspur.altimg.png";
-
+	background-image: ("www.chelseafc.com/content/cfc/en/ref/clubs/en/tottenham-hotspur.altimg.png");
+  
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
-#grad {
-  background: linear-gradient(to right, red , yellow);
-}
+
 .container {
+	 background: linear-gradient(to right, red , yellow);
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
